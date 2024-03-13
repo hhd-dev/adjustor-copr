@@ -1,6 +1,6 @@
 Name:           adjustor
 Version:        2.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Adjustor, a userspace program for managing the TDP of handheld devices.
 
 License:        GPL-3.0-or-later
@@ -35,5 +35,6 @@ Handheld Daemon is a project that aims to provide utilities for managing handhel
 %files
 %doc readme.md
 %license LICENSE
+%{_bindir}/adj
 %{_bindir}/%{name}*
 %{python3_sitelib}/%{name}*
