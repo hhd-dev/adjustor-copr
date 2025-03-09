@@ -1,5 +1,5 @@
 Name:           adjustor
-Version:        3.9.1
+Version:        3.9.2
 Release:        1%{?dist}
 Summary:        Adjustor, a userspace program for managing the TDP of handheld devices.
 
